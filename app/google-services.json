@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "885304336232",
+    "firebase_url": "https://pagare-52229.firebaseio.com",
+    "project_id": "pagare-52229",
+    "storage_bucket": "pagare-52229.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:885304336232:android:35ecc7d366b35c71",
+        "android_client_info": {
+          "package_name": "com.android.wireless.client"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "885304336232-kopf71jq3a9g30il5qliuprjkg0pjs1q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-dl__AYSSydS27WKYLJCyIdOA_fLVaA8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "885304336232-kopf71jq3a9g30il5qliuprjkg0pjs1q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:885304336232:android:e5ec719b7151e7ff",
+        "android_client_info": {
+          "package_name": "com.example.wirelesscashier"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "885304336232-kopf71jq3a9g30il5qliuprjkg0pjs1q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-dl__AYSSydS27WKYLJCyIdOA_fLVaA8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "885304336232-kopf71jq3a9g30il5qliuprjkg0pjs1q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:885304336232:android:44b58f115e1980b6",
+        "android_client_info": {
+          "package_name": "com.example.wirelesschasier"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "885304336232-kopf71jq3a9g30il5qliuprjkg0pjs1q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-dl__AYSSydS27WKYLJCyIdOA_fLVaA8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "885304336232-kopf71jq3a9g30il5qliuprjkg0pjs1q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

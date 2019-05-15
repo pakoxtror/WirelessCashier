@@ -14,7 +14,7 @@
         android:layout_marginEnd="27dp"
         android:layout_marginRight="27dp"
         android:text="API Service Consumption"
-        app:layout_constraintEnd_toEndOf="@+id/editTextcard"
+        app:layout_constraintEnd_toEndOf="@+id/textCard"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
@@ -27,28 +27,50 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextamount" />
 
-    <EditText
-        android:id="@+id/editTextcard"
+
+    <TextView
+        android:id="@+id/textCard"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="45dp"
         android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Card"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
-    <EditText
-        android:id="@+id/editTextestablishment"
+    <!--android:layout_marginEnd="27dp"-->
+    <!--android:layout_marginRight="27dp"-->
+    <!--android:text="API Service Consumption"-->
+
+    <!--<EditText-->
+        <!--android:id="@+id/editTextcard"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginTop="45dp"-->
+        <!--android:ems="10"-->
+        <!--android:inputType="textPersonName"-->
+        <!--android:text="Card"-->
+        <!--app:layout_constraintEnd_toEndOf="parent"-->
+        <!--app:layout_constraintStart_toStartOf="parent"-->
+        <!--app:layout_constraintTop_toBottomOf="@+id/textView2" />-->
+
+    <TextView
+        android:id="@+id/textEstablishment"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="18dp"
         android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Establishment"
-        app:layout_constraintStart_toStartOf="@+id/editTextcard"
-        app:layout_constraintTop_toBottomOf="@+id/editTextcard" />
+        app:layout_constraintStart_toStartOf="@+id/textCard"
+        app:layout_constraintTop_toBottomOf="@+id/textCard" />
+
+    <!--<EditText-->
+        <!--android:id="@+id/editTextestablishment"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginTop="18dp"-->
+        <!--android:ems="10"-->
+        <!--android:inputType="textPersonName"-->
+        <!--android:text="Establishment" />-->
 
     <EditText
         android:id="@+id/editTextamount"
@@ -58,9 +80,9 @@
         android:layout_marginEnd="2dp"
         android:layout_marginRight="2dp"
         android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Amount"
-        app:layout_constraintEnd_toEndOf="@+id/editTextestablishment"
-        app:layout_constraintTop_toBottomOf="@+id/editTextestablishment" />
+        android:inputType="numberDecimal"
+        android:hint="Amount"
+        app:layout_constraintEnd_toEndOf="@+id/textEstablishment"
+        app:layout_constraintTop_toBottomOf="@+id/textEstablishment" />
 
 </android.support.constraint.ConstraintLayout>
